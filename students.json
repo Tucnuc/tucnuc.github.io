@@ -1,0 +1,92 @@
+[
+    {
+        "id": "student1",
+        "name": "Matěj",
+        "location": "<p><b>Bydliště:</b> Karlštejn</p>",
+        "age": "<p><b>Věk:</b> 16</p>",
+        "hobby": "<p><b>Záliby:</b> Matematika, programování v Javascriptu, šachy, nenávidí CSS</p>",
+        "bio": "<p>Matěj je známý hacker a matematický génius. Specializuje na krádeže peněz a dat, kdy bankám vytvářel nesmyslně složité algoritmy na serverech, kdy nelze odhalit jeho nekalé praktiky. Ukradl data z bankovních serverů a díky tomu odcizil přes 20 milionů korun. Peníze investoval do vylepšení svého šachového programu, se kterým poráží i ty nejlepší hráče.Nyní čelí obvinění z hackerských útoků a krádeží. Hrozí mu až 10 let vězení a kurz tvorby responsivních webů a užívání CSS stylů.</p>",
+        "photo": "https://media.discordapp.net/attachments/1070785672551600210/1199055957611794473/PXL_20240116_074229000.PORTRAIT.jpg"
+    },
+    {
+        "id": "student2",
+        "name": "Adam",
+        "location": "<p><b>Bydliště:</b> Podzemní komplex Týn pod Helfštýnem</p>",
+        "age": "<p><b>Věk:</b> 17 nebo víc</p>",
+        "hobby": "<p><b>Záliby:</b> Hypnotizování svých obětí pomocí CSS gradientů, peníze.</p>",
+        "bio": "<p>Adam, také známý v podsvětí pod přezdívkou jako Maestro CSS, unáší mladé lidi za účelem zvětšování jeho bohatství. Skrýval se ve stínech v temných uličkám. Poté už šel cítit pouze jeho chladný pohled, pronikající tmou jako noční můra pod kloboukem s nepřehlédnutým okrajem barev CSS gradientů. Kromě unášení lidí, také obchodoval se zbraněmi.<br>Zadržen byl před pěti lety zásahovou jednotkou, co čekala před jeho podzemním komplexem. Po pouhém týdnu ve vězení se mu ale podařilo uprchnout a od té doby nebyl spatřen.</p>",
+        "photo": "https://media.discordapp.net/attachments/1070785672551600210/1199055957058142270/PXL_20240116_074201054.PORTRAIT.jpg"
+    },
+    {
+        "id": "student3",
+        "name": "Daniel",
+        "location": "<p><b>Bydliště:</b> Paraguay</p>",
+        "age": "<p><b>Věk: </b>17</p>",
+        "hobby": "<p><b>Záliby:</b> Krácení daní, Optimalizace(v pythonu), Crypto onboarding</p>",
+        "bio": "<p>Daniel byl zatčen na základě obvinění z  porušení českých daňových zákonů a povinnosti týkající se sociálního a zdravotního pojištění vůči českým úřadům. Toto obvinění vzniklo v důsledku jeho opakované praxe trávit většinu času mimo území České republiky, což mu umožnilo uniknout povinným odvodům. Lokální autority nyní tvrdí, že Daniel zanedbával své daňové povinnosti. I když rozsudek zatím není pravomocný, Daniel čelí možnému trestu až 15 let odnětí svobody..</p>",
+        "photo": "https://media.discordapp.net/attachments/1070785672551600210/1199056056773529630/PXL_20240116_074621711.PORTRAIT.ORIGINAL.jpg"
+    },
+    {
+        "id": "student4",
+        "name": "Marek",
+        "location": "<p><b>Bydliště:</b> Santa Cruz - Jamajka</p>",
+        "age": "<p><b>Věk:</b> 16</p>",
+        "hobby": "<p><b>Záliby:</b> Neplacení daňí, finanční podvody, provozování pyramidových schémat</p>",
+        "bio": " <p>Marek 'Pyramidový Pán', původem z České republiky, získal pochybnou slávu jako tvůrce pyramidových schémat. Svými rafinovanými finančními triky obrátil svou pozornost k důchodcům přes internet, vytvářející sofistikované podvody. Po vydání zatykače se vyhnul spravedlnosti útěkem na Jamajku, kde nejenže pokračoval ve svých nekalých praktikách, ale zde ho vládní složky zadrželi a předali České republice. Momentálně dluží daně ve výši 43,6 milionu Kč.<br>Markovi hrozí odmětí svobody na dobu 258 let, nebo 20 let a splacení všech svých dluhů</p>",
+        "photo": "https://media.discordapp.net/attachments/1070785672551600210/1199055961214697592/PXL_20240116_074400103.PORTRAIT.jpg"
+    },
+    {
+        "id": "student5",
+        "name": "Jakub",
+        "location": "<p><b>Bydliště:</b> Neznámé</p>",
+        "age": "<p><b>Věk:</b> Něco mezi 17 a nějakým číslem</p>",
+        "hobby": "<p><b>Záliby:</b> Rybolov, Hraní her, Gym, Chov exotických zvířat a hlavně nelegální činy</p>",
+        "bio": "<p>Zákeřný rýbář, který nenechá na pokoji žádnou štiku. V roce 2016 se stal nejvyšším kancléřem rybářského svazu Čech a Moravy. Již dříve byl stíhán za vražedné činy pomocí štírů a jiných nebezpečných zvířat.<br>Jelikož se velice vyzná v IT oboru a programování, stál také za hacknutím pentagonu a společnosti NASA. Odsouzen byl na dobu neurčitou.</p>",
+        "photo": "https://media.discordapp.net/attachments/1070785672551600210/1199056054131110040/PXL_20240116_074554557.PORTRAIT.jpg"
+    },
+    {
+        "id": "student6",
+        "name": "Kuba",
+        "location": "<p><b>Bydliště:</b>ve 'svém hoodu' (území mafie v Dalmatínská 101).</p>",
+        "age": "<p><b>Věk:</b>16</p>",
+        "hobby": "<p>Záliby: Neznámé</br></p>",
+        "bio": "<p>V opuštěném skladišti odpočívá tajemný kriminálník. Jeho tvář skrývá nebezpečný výraz pod stříbrnou maskou, a oděv z temné kůže doplňují stopy minulých činů. Kuba v minulosti působil jako člen mafie v Itálii. Jeho poslední slova při výslechu byly 'nebyl jsem v mafii.' po tomto výslechu jel do věznice 'Alcatraz' během této cesty však nedorazil do cíle. A nyní je hledán jako člen této mafiánské skupiny.</p>",
+        "photo": "https://media.discordapp.net/attachments/1070785672551600210/1199056051815862302/PXL_20240116_074502645.PORTRAIT.jpg"
+    },
+    {
+        "id": "student7",
+        "name": "Tom",
+        "location": "<p><b>Bydliště: tajné</b> MESTO</p>",
+        "age": "<p><b>Věk:</b> 0-99 let</p>",
+        "hobby": "<p><b>Záliby: přísně tajné</b>",
+        "bio": "<p>Agent české rozvědky v utajení, s úkolem nasbírat dostatek důkazních materiálů pro odsouzení všech zmíněných pachatelů.</p>",
+        "photo": "https://media.discordapp.net/attachments/1070785672551600210/1199056053078343850/PXL_20240116_074534374.PORTRAIT.jpg"
+    },
+    {
+        "id": "student8",
+        "name": "Illia",
+        "location": "<p><b>Bydliště:</b>Východní Japonsko</p>",
+        "age": "<p><b>Věk:</b>17</p>",
+        "hobby": "<p><b>Záliby:</b>Krádeže, hudba, sport</p>",
+        "bio": "<p>Tajemný japonský zločinec. Začínal kariéru s krádeží elektronických peněženek u důchodců. Je obviněn z krádeže peněz z penzijního fondu. Peníze určené pro seniory převedl na svůj vlastní účet, čímž uvrhl mnoho lidí do finanční krize. Byl odsouzen za krádež a hacking, očekává 16 let ve věznici v Tokiu  se zvýšenou ostrahou.</p>",
+        "photo": "https://media.discordapp.net/attachments/1070785672551600210/1199055958366748792/PXL_20240116_074245664.PORTRAIT.jpg"
+    },
+    {
+        "id": "student9",
+        "name": "Lukáš",
+        "location": "<p><b>Bydliště:</b> Obydlená zatáčka</p>",
+        "age": "<p><b>Věk = </b>range(16,17)</p>",
+        "hobby": "<p><b>Záliby:</b> hraní her, krácení daní, hra na kytaru</p>",
+        "bio": "<p><b>Bližší informace neznámé</b></p>",
+        "photo": "https://media.discordapp.net/attachments/822404489944236032/1204783259699904532/s.jpg?ex=65d5fcd8&is=65c387d8&hm=4154f8dfed606955b3d12c1cefa4ab8d8da8136c2fa23bc5d8bed15b41c3a6a2&=&format=webp&width=509&height=676"
+    },
+    {
+        "id": "student10",
+        "name": "Matyáš",
+        "location": "<p><b>Bydliště:</b>ve Šternberku do svých 6 let.</p>",
+        "age": "<p><b>Věk neznámý</b></p>",
+        "hobby": "<p><b>Záliby:</b>Kradení propisek ve stylu, učení se ve škole (dobrovolné), vaření pervitinu se svým kolegou Jessie (aktuální?)</p>",
+        "bio": "<p>Bylo spuštěno pátrání po tomto nebezpečném jedinci z důvodu, že ukradl příliš mnoho propisek ostatním ve škole. Říká se že nyní vlastní pervitinové doupě a žije daleko odsud (Česká republika). Jeho nevlastní švagr patří mezi policisty, kteří tyto jedince chytají. Pátrání nebylo nikdy úspěšné, jelikož byl zahlednut na hranicích všech okolních států. Proto doufáme že nám veřejnost v pátrání tohoto muže pomůže.</p>",
+        "photo": "https://media.discordapp.net/attachments/1070785672551600210/1199056050574340126/PXL_20240116_074422816.PORTRAIT.jpg"
+    }
+]

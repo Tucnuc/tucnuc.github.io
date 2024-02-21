@@ -1,0 +1,159 @@
+:root {
+  --body-bg: white;
+  --nav-bg: #ddd;
+}
+
+img {
+  max-width: 450px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: system-ui;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-size: 1.25rem;
+  background: var(--body-bg);
+  color: black;
+  display: grid;
+  grid-template-columns: 15rem 1fr;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  max-height: 100svh;
+  background-color: var(--nav-bg);
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: grid;
+  gap: 1rem;
+  padding-block: 2rem;
+}
+
+.nav-list li {
+  padding: 1rem 2rem;
+  margin-left: 2rem;
+  border-radius: 100vw 0 0 100vw;
+}
+
+.nav-list li.active {
+  view-transition-name: activeNavTab;
+  background: var(--body-bg);
+  position: relative;
+}
+
+.nav-list li:nth-child(1) a {
+  view-transition-name: navLink-1;
+}
+.nav-list li:nth-child(2) a {
+  view-transition-name: navLink-2;
+}
+.nav-list li:nth-child(3) a {
+  view-transition-name: navLink-3;
+}
+.nav-list li:nth-child(4) a {
+  view-transition-name: navLink-4;
+}
+.nav-list li:nth-child(5) a {
+  view-transition-name: navLink-5;
+}
+.nav-list li:nth-child(6) a {
+  view-transition-name: navLink-6;
+}
+.nav-list li:nth-child(7) a {
+  view-transition-name: navLink-7;
+}
+.nav-list li:nth-child(8) a {
+  view-transition-name: navLink-8;
+}
+.nav-list li:nth-child(9) a {
+  view-transition-name: navLink-9;
+}
+.nav-list li:nth-child(10) a {
+  view-transition-name: navLink-10;
+}
+.nav-list li:nth-child(11) a {
+  view-transition-name: navLink-11;
+}
+
+::view-transition-group(activeNavTab){
+  animation-duration: 500ms;
+}
+
+.nav-list li.active::before, .nav-list li.active::after {
+  --border-radius: 2rem;
+
+  content: '';
+  position: absolute;
+  width: var(--border-radius);
+  height: var(--border-radius);
+  right: 0;
+  background: var(--nav-bg);
+}
+
+.nav-list li.active::before {
+  top: calc(var(--border-radius) * -1);
+  border-radius: 0 0 100vw 0;
+  box-shadow: 10px 10px 0 10px var(--body-bg);
+}
+
+.nav-list li.active::after {
+  bottom: calc(var(--border-radius) * -1);
+  border-radius: 0 100vw 0 0;
+  box-shadow: 10px -10px 0 10px var(--body-bg);
+}
+
+.nav-list a {
+  display: block;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  z-index: 10;
+}
+
+
+
+section.pics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2rem;
+  padding-top: 2rem;
+  padding-right: 5rem;
+  padding-bottom: 2rem;
+}
+
+section.pics img {
+  /* border: solid black 1px; */
+  border-radius: 1vw;
+  transition: 500ms;
+  box-shadow: 2px 2px 2px 2px var(--nav-bg);
+}
+section.pics img:hover {
+  transform: scale(1.15);
+}
+
+#studentInfo {
+  padding-right: 5rem;
+}
+
+
+#studentInfo img {
+  border-radius: 1vw;
+  box-shadow: 2px 2px 2px 2px var(--nav-bg);
+}
